@@ -1,3 +1,5 @@
+// https://michaelscodingspot.com/cache-implementations-in-csharp-net/?utm_campaign=dotNET%20Weekly&utm_medium=email&utm_source=week-20_year-2019
+
 public class WaitToFinishMemoryCache<TItem>
 {
     private MemoryCache _cache = new MemoryCache(new MemoryCacheOptions());
